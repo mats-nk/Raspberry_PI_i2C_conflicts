@@ -10,7 +10,7 @@ Add the following lines to your `config.txt` file
 
 and then reboot `sudo reboot` to make the changes active.
 
-The description of the above to lines is found in: `/boot/overlays/README`
+The description of the above to lines is found in: [/boot/overlays/README](https://raw.githubusercontent.com/raspberrypi/firmware/master/boot/overlays/README)
 
 I2C bus 3 : is GPIO 17, 27
 
