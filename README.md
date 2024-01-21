@@ -2,13 +2,13 @@
 
 Use multiple I2C devices with same I2C address. No extra hardware required.
 
-Add the following lines to your `config.txt` file
+1. Add the following lines to `/boot/config.txt`
 
 `dtoverlay=i2c-gpio,bus=4,i2c_gpio_delay_us=2,i2c_gpio_sda=17,i2c_gpio_scl=27`
 
 `dtoverlay=i2c-gpio,bus=3,i2c_gpio_delay_us=2,i2c_gpio_sda=23,i2c_gpio_scl=24`
 
-and then reboot `sudo reboot` to make the changes active.
+2. Reboot `sudo reboot` to make the changes active.
 
 The description of the above to lines is found in: [/boot/overlays/README](https://raw.githubusercontent.com/raspberrypi/firmware/master/boot/overlays/README)
 
